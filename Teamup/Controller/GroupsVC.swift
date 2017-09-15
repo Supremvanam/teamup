@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  SecondViewController.swift
 //  Teamup
 //
 //  Created by Suprem Vanam on 13/09/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FeedVC: UIViewController {
+class GroupsVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
