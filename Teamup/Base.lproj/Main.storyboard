@@ -193,6 +193,9 @@
                                                 <state key="normal" title="LOGIN WITH FACEBOOK">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="facebookSigninBtnPressed:" destination="tMM-FR-1l0" eventType="touchUpInside" id="7N8-Ci-HXl"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MnN-2y-mwl">
                                                 <rect key="frame" x="0.0" y="140" width="310" height="60"/>
@@ -201,6 +204,9 @@
                                                 <state key="normal" title="LOGIN WITH GOOGLE">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="googleSigninBtnPressed:" destination="tMM-FR-1l0" eventType="touchUpInside" id="81T-fj-WXa"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Zd-yb-nBG">
                                                 <rect key="frame" x="0.0" y="210" width="310" height="60"/>
@@ -220,7 +226,7 @@
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <segue destination="u2e-U1-uu7" kind="show" id="3eM-7h-3iJ"/>
+                                            <action selector="loginWithEmailPressed:" destination="tMM-FR-1l0" eventType="touchUpInside" id="3kM-cn-KAS"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -304,7 +310,7 @@
                                     <color key="titleColor" red="0.090196078431372548" green="0.53333333333333333" blue="0.078431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="tMM-FR-1l0" kind="show" id="xKB-j0-4uj"/>
+                                    <action selector="closeBtnPressed:" destination="u2e-U1-uu7" eventType="touchUpInside" id="4px-a2-Qsz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DHt-Gi-QlZ">
@@ -317,7 +323,7 @@
                                     <color key="titleColor" red="0.090196078431372548" green="0.53333333333333333" blue="0.078431372549019607" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="49e-Tb-3d3" kind="show" id="kM1-V1-FAZ"/>
+                                    <action selector="signinBtnPressed:" destination="u2e-U1-uu7" eventType="touchUpInside" id="Seb-XW-E5j"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -333,6 +339,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="LfY-Oz-zA3"/>
                     </view>
+                    <connections>
+                        <outlet property="emailField" destination="sEe-EM-rMH" id="Ge3-rv-bGa"/>
+                        <outlet property="passwordField" destination="bSf-5Z-c5R" id="Lw6-gb-ZoY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U38-AS-vl7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
