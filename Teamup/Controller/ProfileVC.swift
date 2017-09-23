@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class ProfileVC: UIViewController {
 
@@ -18,11 +19,13 @@ class ProfileVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        emailLabel.text = Auth.auth().currentUser?.email
         
     }
 
     @IBAction func logoutBtnPressed(_ sender: Any) {
-    
+        
+        
     
     }
     

@@ -12,6 +12,8 @@
 		7C7B0B861F6A762900CD36D2 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B0B851F6A762900CD36D2 /* InsetTextField.swift */; };
 		7C7B0B871F6A78A300CD36D2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C93166A1F6931ED008C5B49 /* GoogleService-Info.plist */; };
 		7C7B0B891F6A8DF400CD36D2 /* AuthShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B0B881F6A8DF300CD36D2 /* AuthShadowView.swift */; };
+		7C8FF70D1F76D897009E7AB1 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8FF70C1F76D897009E7AB1 /* UIViewExt.swift */; };
+		7C8FF70F1F76EB77009E7AB1 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8FF70E1F76EB77009E7AB1 /* FeedCell.swift */; };
 		7C9316521F692EEE008C5B49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9316511F692EEE008C5B49 /* AppDelegate.swift */; };
 		7C9316541F692EEE008C5B49 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9316531F692EEE008C5B49 /* FeedVC.swift */; };
 		7C9316561F692EEF008C5B49 /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9316551F692EEF008C5B49 /* GroupsVC.swift */; };
@@ -30,6 +32,8 @@
 		7C7B0B831F6A75C900CD36D2 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		7C7B0B851F6A762900CD36D2 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
 		7C7B0B881F6A8DF300CD36D2 /* AuthShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthShadowView.swift; sourceTree = "<group>"; };
+		7C8FF70C1F76D897009E7AB1 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		7C8FF70E1F76EB77009E7AB1 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		7C93164E1F692EEE008C5B49 /* Teamup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teamup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C9316511F692EEE008C5B49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C9316531F692EEE008C5B49 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
@@ -131,6 +135,7 @@
 			children = (
 				7C7B0B851F6A762900CD36D2 /* InsetTextField.swift */,
 				7C7B0B881F6A8DF300CD36D2 /* AuthShadowView.swift */,
+				7C8FF70E1F76EB77009E7AB1 /* FeedCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 		7C9316681F692FAB008C5B49 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				7C8FF70C1F76D897009E7AB1 /* UIViewExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -293,6 +299,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C8FF70D1F76D897009E7AB1 /* UIViewExt.swift in Sources */,
+				7C8FF70F1F76EB77009E7AB1 /* FeedCell.swift in Sources */,
 				7CF746191F710F9300AAD963 /* ProfileVC.swift in Sources */,
 				7C7B0B821F6A74EB00CD36D2 /* AuthVC.swift in Sources */,
 				7C9316561F692EEF008C5B49 /* GroupsVC.swift in Sources */,
