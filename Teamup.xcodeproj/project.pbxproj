@@ -12,6 +12,8 @@
 		7C7B0B861F6A762900CD36D2 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B0B851F6A762900CD36D2 /* InsetTextField.swift */; };
 		7C7B0B871F6A78A300CD36D2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C93166A1F6931ED008C5B49 /* GoogleService-Info.plist */; };
 		7C7B0B891F6A8DF400CD36D2 /* AuthShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B0B881F6A8DF300CD36D2 /* AuthShadowView.swift */; };
+		7C8FF70D1F76D897009E7AB1 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8FF70C1F76D897009E7AB1 /* UIViewExt.swift */; };
+		7C8FF70F1F76EB77009E7AB1 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8FF70E1F76EB77009E7AB1 /* FeedCell.swift */; };
 		7C9316521F692EEE008C5B49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9316511F692EEE008C5B49 /* AppDelegate.swift */; };
 		7C9316541F692EEE008C5B49 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9316531F692EEE008C5B49 /* FeedVC.swift */; };
 		7C9316561F692EEF008C5B49 /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9316551F692EEF008C5B49 /* GroupsVC.swift */; };
@@ -20,6 +22,8 @@
 		7C93165E1F692EEF008C5B49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C93165C1F692EEF008C5B49 /* LaunchScreen.storyboard */; };
 		7C93166C1F6934B1008C5B49 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C93166B1F6934B1008C5B49 /* DataService.swift */; };
 		7CA595671F6BCF91007DA4EF /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA595661F6BCF91007DA4EF /* AuthService.swift */; };
+		7CF746191F710F9300AAD963 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF746181F710F9200AAD963 /* ProfileVC.swift */; };
+		7CF7461D1F713B5800AAD963 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF7461C1F713B5800AAD963 /* CreatePostVC.swift */; };
 		F7D4A0A069ADF342342D16C0 /* Pods_Teamup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91C940FFF3DFBCF7950766A /* Pods_Teamup.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +32,8 @@
 		7C7B0B831F6A75C900CD36D2 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		7C7B0B851F6A762900CD36D2 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
 		7C7B0B881F6A8DF300CD36D2 /* AuthShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthShadowView.swift; sourceTree = "<group>"; };
+		7C8FF70C1F76D897009E7AB1 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		7C8FF70E1F76EB77009E7AB1 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		7C93164E1F692EEE008C5B49 /* Teamup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teamup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C9316511F692EEE008C5B49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C9316531F692EEE008C5B49 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
@@ -39,6 +45,8 @@
 		7C93166A1F6931ED008C5B49 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7C93166B1F6934B1008C5B49 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		7CA595661F6BCF91007DA4EF /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		7CF746181F710F9200AAD963 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		7CF7461C1F713B5800AAD963 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 		8A25896D9F8C2643F2527E52 /* Pods-Teamup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teamup.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Teamup/Pods-Teamup.debug.xcconfig"; sourceTree = "<group>"; };
 		EE789206D3DD6210247D59B5 /* Pods-Teamup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teamup.release.xcconfig"; path = "Pods/Target Support Files/Pods-Teamup/Pods-Teamup.release.xcconfig"; sourceTree = "<group>"; };
 		F91C940FFF3DFBCF7950766A /* Pods_Teamup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teamup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +124,8 @@
 				7C9316551F692EEF008C5B49 /* GroupsVC.swift */,
 				7C7B0B811F6A74EB00CD36D2 /* AuthVC.swift */,
 				7C7B0B831F6A75C900CD36D2 /* LoginVC.swift */,
+				7CF746181F710F9200AAD963 /* ProfileVC.swift */,
+				7CF7461C1F713B5800AAD963 /* CreatePostVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -125,6 +135,7 @@
 			children = (
 				7C7B0B851F6A762900CD36D2 /* InsetTextField.swift */,
 				7C7B0B881F6A8DF300CD36D2 /* AuthShadowView.swift */,
+				7C8FF70E1F76EB77009E7AB1 /* FeedCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -139,6 +150,7 @@
 		7C9316681F692FAB008C5B49 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				7C8FF70C1F76D897009E7AB1 /* UIViewExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -287,12 +299,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C8FF70D1F76D897009E7AB1 /* UIViewExt.swift in Sources */,
+				7C8FF70F1F76EB77009E7AB1 /* FeedCell.swift in Sources */,
+				7CF746191F710F9300AAD963 /* ProfileVC.swift in Sources */,
 				7C7B0B821F6A74EB00CD36D2 /* AuthVC.swift in Sources */,
 				7C9316561F692EEF008C5B49 /* GroupsVC.swift in Sources */,
 				7C7B0B891F6A8DF400CD36D2 /* AuthShadowView.swift in Sources */,
 				7CA595671F6BCF91007DA4EF /* AuthService.swift in Sources */,
 				7C7B0B841F6A75C900CD36D2 /* LoginVC.swift in Sources */,
 				7C9316521F692EEE008C5B49 /* AppDelegate.swift in Sources */,
+				7CF7461D1F713B5800AAD963 /* CreatePostVC.swift in Sources */,
 				7C9316541F692EEE008C5B49 /* FeedVC.swift in Sources */,
 				7C7B0B861F6A762900CD36D2 /* InsetTextField.swift in Sources */,
 				7C93166C1F6934B1008C5B49 /* DataService.swift in Sources */,
